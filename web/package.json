@@ -1,0 +1,22 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss-cli@latest build -o tailwind.css",
+    "build" : "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.3",
+    "postcss": "^8.2.4",
+    "sass": "^1.32.5",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "rollup": "^2.38.0"
+  }
+}
