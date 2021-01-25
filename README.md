@@ -2,7 +2,7 @@
 
 ### Description
 
-This is a my first attempt to build a full-stack website
+This is my first attempt to build a full-stack website
 
 ### Running
 - Clone the project
