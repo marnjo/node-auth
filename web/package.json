@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-css": "npx tailwindcss-cli@latest build -o tailwind.css",
-    "build" : "rollup -c"
+    "build": "rollup -c"
   },
   "keywords": [],
   "author": "",

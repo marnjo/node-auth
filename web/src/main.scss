@@ -1,13 +1,56 @@
 *{
+  margin: 0px;
   box-sizing: border-box;
 }
 
-main{
-  max-width: 1000px;
-  margin: 0 auto;
-  text-align: center;
+$navColor: #F9C70C;
+
+body {
+  height: 100vh;
 }
 
-main, header, footer{
-  padding: 20px;
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  position: fixed;
+  background: rgba($navColor, 0.7);
+  height: 40px;
+  width: 100%;
+
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    padding: 8px;
+
+    &:hover {
+      background: lighten($navColor, 3);
+    }
+  }
+
+  a {
+    padding: 10px;
+  }
+
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  // scroll-snap-align: center;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
 }
