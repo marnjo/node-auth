@@ -9,12 +9,12 @@ This is my first attempt to build a full-stack website
 
 - Run `npm install` in the **web, api,** and **root** folders
 
-- Run `npm run dev` to launch the server
+- Run `npm run dev` to launch the server on the **root** folder
 
 - Open the `https://localhost:3000` on your browser
 
 
-### Authors information
+### Authors' information
 
  Osanjo Martine (marnjo)
 
