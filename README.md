@@ -19,7 +19,10 @@ This is my first attempt to build a full-stack website
  Osanjo Martine (marnjo)
 
  Competent in HTML, CSS(sass, tailwindcss) and Javascript(svelte,sapper).
-
+ 
+ Waikau Maina (codeprospects)
+ 
+Competent in HTML, CSS(sass)  and Javascript, Django, python, markdown.
 
 ### Technologies Used
 - [x] HTML
